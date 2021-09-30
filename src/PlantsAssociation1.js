@@ -2,31 +2,36 @@ export default class PlantsAssociation1 {
 
     #plantsMatrix2 = {
         BÜDÖSKE: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["bab", "bokorbab", "burgonya", "saláta", "paradicsom", "uborka", "paprika", "padlizsán", "karfiol", 
+                "futóbab", "dinnye", "brokkoli", "petrezselyem", "káposzta", "leveles kel", "kelkáposzta", "bazsalikom"],
             ROSSZ_SZOMSZÉD: []
         },
         CICKAFARK: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["bab", "bokorbab", "borsó", "napraforgó", "cukorrépa", "káposzta", "mángold", "édeskömény", 
+                "lóbab", "borágó", "rozmaring"],
             ROSSZ_SZOMSZÉD: []
         },
         KÖRÖMVIRÁG: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["burgonya", "paradicsom", "eper", "körtefa", "diófa", "almafa", "őszibarack fa", "sárgabarack fa"],
             ROSSZ_SZOMSZÉD: []
         },
         PETÚNIA: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["burgonya", "cukkini", "paradicsom", "patiszon", "uborka", "tök", "dinnye", 
+            "futóbab", "spárga", "bazsalikom"], 
             ROSSZ_SZOMSZÉD: []
         },
         RÉZVIRÁG: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["paradicsom", "paprika", "futóbab", "lóbab"],
             ROSSZ_SZOMSZÉD: []
         },
         RÓZSA: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["fokhagyma", "hagyma", "metélőhagyma", "petrezselyem"],
             ROSSZ_SZOMSZÉD: []
         },
         SARKANTYÚKA: {
-            JÓ_SZOMSZÉD: [],
+            JÓ_SZOMSZÉD: ["bab", "bokorbab", "burgonya", "cukkini", "retek", "paradicsom", "patiszon", "uborka", 
+            "zeller", "tök", "karfiol", "futóbab", "dinnye", "brokkoli", "kelbimbó", "káposzta", "leveles kel", 
+            "kelkáposzta", "kínai kel", "körtefa", "almafa", "őszibarack fa", "sárgabarack fa"],
             ROSSZ_SZOMSZÉD: []
         },
         BAB: {
